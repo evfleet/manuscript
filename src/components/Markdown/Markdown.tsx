@@ -1,5 +1,5 @@
 const Markdown = () => {
-  return <textarea className="w-full h-full p-4 resize-none bg-slate-50" />;
+  return <textarea className="h-full w-full resize-none bg-slate-50 p-4" />;
 };
 
 export default Markdown;

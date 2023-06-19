@@ -5,14 +5,14 @@ const Editor = () => {
   const editor = useEditor({
     editorProps: {
       attributes: {
-        class: "w-full h-full p-4",
+        class: "h-full w-full p-4",
       },
     },
     extensions: [StarterKit],
     content: "",
   });
 
-  return <EditorContent className="w-full h-full" editor={editor} />;
+  return <EditorContent className="h-full w-full" editor={editor} />;
 };
 
 export default Editor;

@@ -4,7 +4,7 @@ import TopBar from "./components/TopBar";
 
 const App = () => {
   return (
-    <div className="flex flex-col h-screen w-screen">
+    <div className="flex h-screen w-screen flex-col">
       <header className="border-b-2">
         <TopBar />
       </header>
@@ -19,7 +19,7 @@ const App = () => {
         </section>
       </div>
 
-      <footer className="bg-slate-700 text-white border-t-2">
+      <footer className="border-t-2 bg-slate-700 text-white">
         <p>Footer</p>
       </footer>
     </div>
